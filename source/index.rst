@@ -12,7 +12,8 @@ Welcome to the ScaleIT Platform documentation!
 
    getstarted
    proposition
-
+   appdesign
+   security
 
 Indices and tables
 ==================
@@ -34,6 +35,17 @@ There are three main components to the ScaleIT solution.
 
 ScaleIT Software Platform - In IT, a platform is any hardware or software used to host an application or service. An application platform, for example, consists of hardware, an operating system and coordinating programs that use the instruction set for a particular processor or microprocessor. - searchservervirtualization.techtarget.com/definition/platform
 
+
+Open Source:
+When a project is open source, that means anybody can view, use, modify, and distribute your project for any purpose. These permissions are enforced through an open source license.
+
 Value Proposition
-==================================
+-----------------
+
+.. figure:: img/value_proposition.png
+   :scale: 50 %
+   :alt: ScaleIT value proposition in one glance
+
+   ScaleIT value proposition in one glance.
+
 
