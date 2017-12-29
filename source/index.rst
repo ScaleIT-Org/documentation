@@ -42,6 +42,7 @@ Welcome to the ScaleIT Platform documentation!
    success_stories
    appdesign
    architecture
+   app_readiness
    networking
    security
    
