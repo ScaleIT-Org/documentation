@@ -66,11 +66,11 @@ App Anatomy
 Sidecar Pattern
 ^^^^^^^^^^^^^^^
 
-.. figure:: img/architektur_sidecar_pattern2.png
+.. figure:: img/architektur_sidecar_pattern.png
    :scale: 50 %
-   :alt: ScaleIT value proposition in one glance
+   :alt: Sidecar pattern
 
-   Caption Text
+   Durch das Sidecar-Pattern werden Plattformfunktionalitäten hinzugefügt.
 
 .. figure:: img/architektur_sidecar_pattern.png
    :scale: 50 %
