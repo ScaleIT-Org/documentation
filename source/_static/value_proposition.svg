@@ -124,7 +124,7 @@ class="s1_1"
 
 @font-face {
 	font-family: ArialMT_9;
-	src: url("/_static/fonts/ArialMT_9.woff") format("woff");
+	src: url("fonts/ArialMT_9.woff") format("woff");
 }
 
 ]]></style>

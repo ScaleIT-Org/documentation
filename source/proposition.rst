@@ -36,11 +36,16 @@ Digitalisierung durch Apps
 ScaleIT Digitalisierungsstrategie
 #################################
 
-.. raw:: html
+.. .. raw:: html
 
-   <object data="_static/digitalisierung_durch_scaleit.svg" type="image/svg+xml" width="100%"></object>
+..    <object data="_static/digitalisierung_durch_scaleit.svg" type="image/svg+xml" width="100%"></object>
+..    Digitalisierungschritte durch ScaleIT: von der Strategie hin zu den konkreten Maßnahmen.
+
+
+.. figure:: img/digitalisierung_durch_scaleit.png
+   :alt: Digitalisierung
+
    Digitalisierungschritte durch ScaleIT: von der Strategie hin zu den konkreten Maßnahmen.
-
 
 Prozesse
 ^^^^^^^^

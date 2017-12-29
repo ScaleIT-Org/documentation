@@ -43,8 +43,9 @@ There are three main components to the ScaleIT solution.
 .. todo::
    Image with ScaleIT Eco System, ScaleIT Software Platform, ScaleIT Hardware
 
-ScaleIT Value Proposition
-    :ref:`Ich möchte jetzt erfahren wie mir ScaleIT auf dem Hallenboden hilft! <value proposition>`
+.. note::
+    ScaleIT Value Proposition
+        :ref:`Ich möchte jetzt erfahren wie mir ScaleIT auf dem Hallenboden hilft! <value proposition>`
 
 ScaleIT Software Platform
     In IT, a platform is any hardware or software used to host an application or service. An application platform, for example, consists of hardware, an operating system and coordinating programs that use the instruction set for a particular processor or microprocessor. - searchservervirtualization.techtarget.com/definition/platform
