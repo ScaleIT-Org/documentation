@@ -98,3 +98,8 @@ Diagrams inspired by `_1Backend <https://github.com/1backend/1backend/blob/maste
                                                                   |
                                                                   |---- place of instrumentation and other magic
 
+HTTP Request Headers
+--------------------
+
+Copy from Github repo
+

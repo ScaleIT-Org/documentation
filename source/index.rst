@@ -5,11 +5,11 @@
 
 .. Headings
 .. # with overline, for parts
-..* with overline, for chapters
-..=, for sections
-..-, for subsections
-..^, for subsubsections
-..“, for paragraphs
+.. * with overline, for chapters
+.. =, for sections
+.. -, for subsections
+.. ^, for subsubsections
+.. “, for paragraphs
 
 
 Welcome to the ScaleIT Platform documentation!
@@ -52,15 +52,24 @@ When a project is open source, that means anybody can view, use, modify, and dis
 Value Proposition
 -----------------
 
-.. figure:: img/value_proposition.png
+.. figure:: img/value_proposition.svg
    :scale: 50 %
    :alt: ScaleIT value proposition in one glance
 
    ScaleIT value proposition in one glance.
+
+.. raw:: html
+
+    <object data="_images/value_proposition.svg" type="image/svg+xml" width="100%"></object>
 
 
 TEST
 =======
 
 RST Tests here
+
+
+.. figure:: img/oss_pillars.*
+   :scale: 50 %
+   :alt: ScaleIT value proposition in one glance
 
