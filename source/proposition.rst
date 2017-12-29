@@ -47,6 +47,13 @@ ScaleIT Digitalisierungsstrategie
 
    Digitalisierungschritte durch ScaleIT: von der Strategie hin zu den konkreten Maßnahmen.
 
+
+Anforderungsanalyse
+^^^^^^^^^^^^^^^^^^^
+
+If you wish to analyse your requirements regarding Apps, visit our ScaleIT App Workshop Kit: 
+https://github.com/ScaleIT-Org/workshop-app-prototyping
+
 Prozesse
 ^^^^^^^^
 
@@ -76,12 +83,19 @@ Sucht ein Unternehmen beispielhaft ein Projektmanagementwerkzeug, dann kann es d
 Die Entscheidung wird so durch reelen Einsatz der Software im betrieblichen Alltag unterstützt.
 
 .. figure:: img/A-B_testing_example.png
-   :scale: 50 %
-   :alt: ScaleIT value proposition in one glance
+  :scale: 50 %
+  :align: center
+  :alt: ScaleIT value proposition in one glance
 
-   A-B Test Beispiel [#f1]_
+  A-B Test Beispiel [#f1]_
 
 .. figure:: img/A-B_testing_example2.*
-   :alt: ScaleIT value proposition in one glance
+  :align: center
+  :alt: ScaleIT value proposition in one glance
 
-   A-B Test Beispiel [#f2]_
+  A-B Test Beispiel [#f2]_
+
+.. rubric:: Footnotes
+
+.. [#f1] https://commons.wikimedia.org/wiki/File:A-B_testing_example.png
+.. [#f2] https://commons.wikimedia.org/wiki/File:Ab-test.jpg
