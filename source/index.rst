@@ -27,8 +27,9 @@ Welcome to the ScaleIT Platform documentation!
         :ref:`Lernen Sie was ScaleIT ist <what is scaleit>`
 
 .. note::
-    Technical getting started
-        For a technical getting started, visit: https://github.com/ScaleIT-Org/documentation
+    `Click here for the technical getting started (GitHub) <https://github.com/ScaleIT-Org/documentation>`_
+
+    :ref:`Click here for the architecture documentation and white paper <ScaleIT Architektur>`
 
 
 .. toctree::
@@ -38,6 +39,7 @@ Welcome to the ScaleIT Platform documentation!
    whatis
    getstarted
    proposition
+   success_stories
    appdesign
    architecture
    networking

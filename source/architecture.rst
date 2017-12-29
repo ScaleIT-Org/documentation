@@ -2,11 +2,14 @@
 ScaleIT Architektur
 ===================
 
+`app design`_
+
 App Readiness Checklisten hier:
 
 
 .. figure:: img/architektur.png
    :scale: 50 %
+   :align: center
    :alt: ScaleIT value proposition in one glance
 
    Caption Text

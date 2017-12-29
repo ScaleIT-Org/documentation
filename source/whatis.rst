@@ -29,13 +29,22 @@ ScaleIT Hardware
 ScaleIT Partner and the ScaleIT Community
   `Meet the people of ScaleIT <https://medium.com/@scale_it_org/the-people-of-scaleit-382866ff4226>`_
 
+.. figure:: img/konsortium.png
+    :scale: 40 %
+    :align: center
+    :alt: Das ScaleIT Konsortium
+
+    Das ScaleIT Konsortium
+
 
 ScaleIT is Open Source
     When a project is open source, it means anybody can view, use, modify, and distribute your project for any purpose. These permissions are enforced through an open source license.
 
     Learn why this is important `OSS for German Manufacturing <https://medium.com/@scale_it_org/a-push-towards-bringing-open-source-mentality-to-german-manufacturing-e29d5af84875>`_
 
-    ScaleIT is being published with an MIT license.
+    ScaleIT is being published with an MIT license and are provided as is.
+
+    **If you need professional solutions**, our partners are building industry grade ScaleIT Systems and are happy to help. Mail us at info@scale-it.org or e-mail a partner directly.
 
 .. figure:: img/oss_pillars.png
    :scale: 40 %
@@ -47,6 +56,7 @@ ScaleIT is Open Source
 .. todo::
   Better image with ScaleIT Eco System, ScaleIT Software Platform, ScaleIT Hardware
    
+
 
 .. rubric:: Footnotes
 

@@ -13,6 +13,13 @@ Value Proposition
 
     <object data="_static/value_proposition.svg" type="image/svg+xml" width="100%"></object>
 
+
+* Schnell installierbar
+* Integration in Firmen-IT
+* Semantische Daten
+* Hohe Integrierbarkeit durch Web-Technologien
+* Kein Internet notwendig
+
 Digitalisierung durch Apps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 

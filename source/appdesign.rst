@@ -1,3 +1,4 @@
+.. _app design:
 ScaleIT App Design-Prinzipien
 =============================
 
