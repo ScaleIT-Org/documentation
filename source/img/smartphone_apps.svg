@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 1 -->
+<svg x="0" y="0" width="1251" height="614" viewBox="0 0 1251 614" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+
+.g1_1{
+fill: #FFFFFF;
+fill-opacity: 0;
+}
+
+.s1_1{
+font-size: 27.50px;
+font-family: ArialMT_9;
+fill: #000000;
+}
+.s2_1{
+font-size: 27.50px;
+font-family: ArialMT_9;
+fill: #C00000;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,614
+L1251,614
+L1251,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<path d="M0,614.2l1251.3,0L1251.3,0L0,0L0,614.2Z" class="g1_1" />
+<text 
+x="486" 
+y="107" 
+dx="0" 
+class="s1_1"
+>•</text>
+
+<text 
+x="521" 
+y="107" 
+dx="0,0,0,0,0,0,0,0,-1.5,0,0,0,0,0,0,0,0,0,0.7,0,0,0,0,0,0,0" 
+class="s1_1"
+>Intuitiv, einfach gehalten</text>
+
+<text 
+x="541" 
+y="139" 
+dx="0" 
+class="s1_1"
+>•</text>
+
+<text 
+x="576" 
+y="139" 
+dx="0,0,0,0,0,0,0,0,0,0,0,-1.5,0,0,0,0,0,0" 
+class="s1_1"
+>1 click, 1 Aufgabe</text>
+
+<text 
+x="486" 
+y="173" 
+dx="0" 
+class="s1_1"
+>•</text>
+
+<text 
+x="521" 
+y="173" 
+dx="0,0,0,0,0,0,0,0,0.8,0,0,0,0,0,0,0,0,0,0" 
+class="s1_1"
+>In sich geschlossen</text>
+
+<text 
+x="541" 
+y="205" 
+dx="0" 
+class="s1_1"
+>•</text>
+
+<text 
+x="576" 
+y="205" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0.8,0,0,0,0,0,0.8,0,0,0,0,0.8,0,0,0,0" 
+class="s1_1"
+>Notwendige Daten sind lokal</text>
+
+<text 
+x="541" 
+y="239" 
+dx="0" 
+class="s1_1"
+>•</text>
+
+<text 
+x="576" 
+y="239" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_1"
+>Offline-fähig</text>
+
+<text 
+x="486" 
+y="272" 
+dx="0" 
+class="s1_1"
+>•</text>
+
+<text 
+x="521" 
+y="272" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.7,0,0,0,-0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_1"
+>Nutzerschnittstellen für Administration und Bedienung</text>
+
+<text 
+x="486" 
+y="338" 
+dx="0" 
+class="s1_1"
+>•</text>
+
+<text 
+x="521" 
+y="338" 
+dx="0,0,0,0,0,0,0,0,0,0,0.8,0,0,0,0,0,0,0,0,0,0" 
+class="s1_1"
+>Zunehmend web-basiert</text>
+
+<text 
+x="486" 
+y="469" 
+dx="0" 
+class="s1_1"
+>•</text>
+
+<text 
+x="521" 
+y="469" 
+dx="0,0,0,0,0,0,0,0.7,0,0,0,0,0,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0.7,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_1"
+>Können nicht untereinander kommunizieren</text>
+
+<text 
+x="486" 
+y="503" 
+dx="0" 
+class="s1_1"
+>•</text>
+
+<text 
+x="521" 
+y="503" 
+dx="0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_1"
+>Geschlossenes</text>
+
+<text 
+x="717" 
+y="503" 
+dx="0,0,0,0,0,0,0,0,0" 
+class="s1_1"
+>Ökosystem</text>
+
+<text 
+x="862" 
+y="503" 
+dx="0,0,0,0,0,0,-1.5,0,0,0,0,0,0,0" 
+class="s1_1"
+>(iOS, Android)</text>
+
+<text 
+x="486" 
+y="535" 
+dx="0" 
+class="s1_1"
+>•</text>
+
+<text 
+x="521" 
+y="535" 
+dx="0,0,0,0,0,0,0,0.7,0,0,0,0,0,0.8,0,0,0,0,0.7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_1"
+>Können nicht alle Use-Cases abdecken</text>
+
+<text 
+x="486" 
+y="408" 
+dx="0,0,0,0" 
+class="s2_1"
+>ABER</text>
+
+<text 
+x="561" 
+y="408" 
+dx="0,0,0,0,0,0,0,0.8,0,0,0,0,0,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" 
+class="s1_1"
+>: Noch nicht industrietauglich</text>
+
+<image preserveAspectRatio="none" x="-559" y="-296" width="560" height="611" xlink:href="1/img/1.png" />
+<image preserveAspectRatio="none" x="-364" y="158" width="560" height="612" xlink:href="1/img/2.png" />
+<image preserveAspectRatio="none" x="-170" y="614" width="561" height="612" xlink:href="1/img/3.png" />
+<image preserveAspectRatio="none" x="-192" y="-453" width="560" height="611" xlink:href="1/img/4.png" />
+<image preserveAspectRatio="none" x="1" y="1" width="562" height="613" xlink:href="1/img/5.png" />
+<image preserveAspectRatio="none" x="196" y="457" width="561" height="612" xlink:href="1/img/6.png" />
+<image preserveAspectRatio="none" x="173" y="-610" width="562" height="611" xlink:href="1/img/7.png" />
+<image preserveAspectRatio="none" x="368" y="-154" width="561" height="611" xlink:href="1/img/8.png" />
+<image preserveAspectRatio="none" x="563" y="300" width="561" height="612" xlink:href="1/img/9.png" />
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: ArialMT_9;
+	src: url("fonts/ArialMT_9.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
