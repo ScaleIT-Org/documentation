@@ -8,6 +8,8 @@ Welcome to the ScaleIT platform!
 
 * If you wish to create your own App, visit: TBD
 
+* If you wish to analyse your requirements regarding Apps, visit our ScaleIT App Workshop Kit: https://github.com/ScaleIT-Org/workshop-app-prototyping
+
 You may also check out this repository and run `sphinx-autobuild source/ build/html/`. Note that you need sphinx installed, go over to http://docs.readthedocs.io/en/latest/getting_started.html and follow the instructions.
 
 
