@@ -9,6 +9,9 @@ Don't forget to look at the :ref:`App Design Richtlinien <app design>` to build 
 
 ------------
 
+Ebenen der Architektur
+----------------------
+
 The ScaleIT architecture allows teams or organisations to manage their own IoT landscape and innovate in their own pace using a parallel IT landscape. This landscape is usually called a shadow IT. This niche for the shadow IT arises from the dichotomous relation between shop floor software engineers and the company wide IT. While shop floor software engineers are enabled to have full control of their deployment environment, the company IT hosts these virtual environments isolated inside the company network. A shadow IT allows the shop floor teams to move independently to the central IT operations.
 
 In this layered architecture, layers below provide software side control for the layers above (bottom up). The top down interaction is facilitated mainly by using pre-built platform services as sidecars. These sidecars are deployed bundled with the Apps (Fig. 3).

@@ -44,6 +44,7 @@ Welcome to the ScaleIT Platform documentation!
    architecture
    app_readiness
    networking
+   lifecycles
    security
    
 
