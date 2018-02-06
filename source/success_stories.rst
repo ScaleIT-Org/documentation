@@ -9,6 +9,9 @@ ScaleIT Success Stories
 Shopfloor Monitoring bei der SICK AG
 ------------------------------------
 
+.. todo::
+    Upload KIT + SICK poster
+
 **Involved partners**: Ondics GmbH, Worldline, SICK AG, KIT
 
 **Results**: Better understanding of live data and optimization potential
