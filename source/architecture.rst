@@ -60,11 +60,25 @@ The above roles are a generalisation and the responsibilities may be be split be
 App Anatomy
 -----------
 
-.. figure:: img/architektur_app_anatomie.png
+.. figure:: img/architektur_app_anatomie1.png
+   :scale: 50 %
+   :alt: App Anatomie
+
+   Die Umgebung einer App ist der Shop Floor und sie haust in der ScaleIT Distributed Edge Cloud.
+
+.. figure:: img/architektur_app_anatomie2.png
    :scale: 50 %
    :alt: App Anatomie
 
    Eine ScaleIT-App besteht aus der Nutz-Software, die einer direkten Werstschöpfung dient, sowie der Plattformkomponenten die über das Sidecar-Pattern eingebunden werden.
+
+.. figure:: img/architektur_app_anatomie3.png
+   :scale: 50 %
+   :alt: App Anatomie
+
+   Nach dem Prinzip des 1-Prozess/Container, wird die Software innerhalb eine ScaleIT App in mehrere unterschiedliche Container verpackt, die gemeinsam die gesamtfunktionalität abdecken.
+
+
 
 Sidecar Pattern
 ^^^^^^^^^^^^^^^
