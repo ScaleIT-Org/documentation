@@ -2,13 +2,13 @@
 
 # Create your own ScaleIT APP:
 
-To create your own ScaleIT application there are many dependencies, structures or requirements you should take care of. But fortunately we already did a lot of the work for you and created many examples, templates and documentation about this procedure. In this article I will show you how to use the these already existing structure to create your own ScaleIT application with ease.
+To create your own ScaleIT application for the ScaleIT [architecture][13] there are many dependencies, structures or requirements you should take care of. But fortunately we already did a lot of the work for you and created many examples, templates and documentation about this procedure. In this article I will show you how to use the these already existing structure to create your own ScaleIT application with ease.
 
 If you are new to the whole ScaleIT world I would suggest you to first read our basic [documentation][1] about the platform to get an quick overview about the main aspects why you or your company should use it.
 
 ### Getting Started
 
-As I mentioned before there are already some templates and sidecars you should use to get started with your ScaleIT app. We provide a simple Ionic frontend with either a [ASP.Net][2] or [NodeJS][3] backend where you can romp around with your programming skills.
+As I mentioned before there are already some templates and [sidecars](#furtherReading) you should use to get started with your ScaleIT app. We provide a simple Ionic frontend with either a [ASP.Net][2] or [NodeJS][3] backend where you can romp around with your programming skills.
 
 Our chosen app architecture (seen in fig. 1) also includes the opportunity to use several sidecars. These are additional independent software parts you can add to your dockerized application to run next to your domain software and adds a desired specific functionality. For example an registration service to our central app-registry as seen in fig. 1
 
@@ -72,6 +72,7 @@ Go to your internet browser and check ```localhost:5000```
 ____
 
 If everything went well you should see the following screen in your browser:
+
 ![alt text](
 https://raw.githubusercontent.com/ScaleIT-Org/dotnet-app-skeleton/master/Resources/Store/Screenshots/Screenshot%20from%202018-01-24%2014-46-53.png "App Architecture")
 *Figure2: Ionic Sample Frontend*
@@ -89,7 +90,12 @@ To easily get started we collected the links to the used technologies:
 - [Docker][4] (Virtualization)
 - [Docker Compose][8] (Virtulization)
 
+<a name="furtherReading">
+If you want further reading stuff about used concepts check this out:
 
+- [Sidecar Article][14]
+- [Sidecar Pattern][15]
+</a>
 
 
 #### Check App Readiness
@@ -109,3 +115,6 @@ We constructed a so called [App Readiness Checklist][9] where we defined some ru
 [10]: https://ionicframework.com/docs/components/
 [11]: https://docs.angularjs.org/api
 [12]: https://www.typescriptlang.org/docs/home.html
+[13]: http://scaleit-platform-documentation.readthedocs.io/en/latest/architecture.html
+[14]: https://www.voxxed.com/2015/01/use-container-sidecar-microservices/
+[15]: https://docs.microsoft.com/en-us/azure/architecture/patterns/sidecar
