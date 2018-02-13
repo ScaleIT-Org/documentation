@@ -33,7 +33,7 @@ Die Skalierungsdimensionen sind (a) das Level an Plattformfunktionalität (Iaas-
 Architekturell-technische Skalierung
 ------------------------------------
 
-Die technische Skalierung weist eine hohe intrinsische Komplexität auf
+Die technische Skalierung weist eine hohe intrinsische Komplexität auf. Das Ziel der ScaleIT-Architektur ist es die extrinsischen Faktoren zu minimieren. Der Mensch muss weiterhin als kreatives Element einbezogen werden, um logisch sinvolle Anwendungsnetzwerke und vernetzte Dienste zu ermöglichen. Die von ScaleIT bereitgestellten Technologien, Konzepte und Paradigmen bieten hohe gestalterische Möglichkeiten ohne Nutzer und Entwickler unnötig zu belasten.
 
 .. figure:: img/skalierung3.png
    :scale: 50 %
