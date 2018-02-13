@@ -39,6 +39,7 @@ Welcome to the ScaleIT Platform documentation!
    whatis
    getstarted
    proposition
+   scalability
    success_stories
    appdesign
    architecture
