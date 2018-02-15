@@ -1,5 +1,3 @@
-![alt text](https://raw.githubusercontent.com/ScaleIT-Org/media-ressources/master/logo/scaleit-logo.png "ScaleIT Logo")
-
 <img src="https://raw.githubusercontent.com/ScaleIT-Org/media-ressources/master/logo/scaleit-logo.png" alt="ScaleIT Node.js App Skeleton" width="40%">
 
 # Create your own ScaleIT APP:
@@ -14,7 +12,7 @@ As I mentioned before there are already some templates and [sidecars](#furtherRe
 
 Our chosen app architecture (seen in fig. 1) also includes the opportunity to use several sidecars. These are additional independent software parts you can add to your dockerized application to run next to your domain software and adds a desired specific functionality. For example an registration service to our central app-registry as seen in fig. 1
 
-![alt text](https://github.com/ScaleIT-ORG/spsc-app-registration/raw/master/Resources/Documentation/architecture.png "App Architecture")*Figure1: App Architecture*
+![alt text](https://github.com/ScaleIT-ORG/spsc-app-registration/raw/master/Resources/Documentation/architecture.png "App Architecture")*Figure 1: App Architecture*
 
 #### - Install Dependencies
 
@@ -76,7 +74,7 @@ ____
 If everything went well you should see the following screen in your browser:
 
 <img src="https://raw.githubusercontent.com/ScaleIT-Org/dotnet-app-skeleton/master/Resources/Store/Screenshots/Screenshot%20from%202018-01-24%2014-46-53.png" width="30%" alt="Ionic Sample Frontend"/>
-Figure2: Ionic Sample Frontend
+Figure 2: Ionic Sample Frontend
 
 #### Create Your Own Content
 
