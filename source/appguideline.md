@@ -1,5 +1,7 @@
 ![alt text](https://raw.githubusercontent.com/ScaleIT-Org/media-ressources/master/logo/scaleit-logo.png "ScaleIT Logo")
 
+<img src="https://raw.githubusercontent.com/ScaleIT-Org/media-ressources/master/logo/scaleit-logo.png" alt="ScaleIT Node.js App Skeleton" width="40%">
+
 # Create your own ScaleIT APP:
 
 To create your own ScaleIT application for the ScaleIT [architecture][13] there are many dependencies, structures or requirements you should take care of. But fortunately we already did a lot of the work for you and created many examples, templates and documentation about this procedure. In this article I will show you how to use the these already existing structure to create your own ScaleIT application with ease.
@@ -73,9 +75,8 @@ ____
 
 If everything went well you should see the following screen in your browser:
 
-![alt text](
-https://raw.githubusercontent.com/ScaleIT-Org/dotnet-app-skeleton/master/Resources/Store/Screenshots/Screenshot%20from%202018-01-24%2014-46-53.png "App Architecture")
-*Figure2: Ionic Sample Frontend*
+<img src="https://raw.githubusercontent.com/ScaleIT-Org/dotnet-app-skeleton/master/Resources/Store/Screenshots/Screenshot%20from%202018-01-24%2014-46-53.png" width="30%" alt="Ionic Sample Frontend"/>
+Figure2: Ionic Sample Frontend
 
 #### Create Your Own Content
 
@@ -90,8 +91,12 @@ To easily get started we collected the links to the used technologies:
 - [Docker][4] (Virtualization)
 - [Docker Compose][8] (Virtulization)
 
+Notes on the features of the App Skeleton:
+
+* The logo located at /src/assets/logo.png will be automatically converted to all white - keep in mind to create a version with transparent background.
+
 <a name="furtherReading">
-If you want further reading stuff about used concepts check this out:
+If you want further reading material about used concepts check this out:
 
 - [Sidecar Article][14]
 - [Sidecar Pattern][15]
