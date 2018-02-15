@@ -81,7 +81,8 @@ Figure 2: Ionic Sample Frontend
 Now that everything is up and running it is on you to implement your ideas for a convenient ScaleIT application.
 To easily get started we collected the links to the used technologies:
 
-- [IonicFramework][10] (Frontend)
+- [Ionic Framework][10] (Frontend)
+- [Ionic Icons][16] (Frontend)
 - [AngularJs][11] (Frontend)
 - [Typescript][12] (Frontend)
 - [NodeJs][6] (Backend)
@@ -121,3 +122,4 @@ We constructed a so called [App Readiness Checklist][9] where we defined some ru
 [13]: http://scaleit-platform-documentation.readthedocs.io/en/latest/architecture.html
 [14]: https://www.voxxed.com/2015/01/use-container-sidecar-microservices/
 [15]: https://docs.microsoft.com/en-us/azure/architecture/patterns/sidecar
+[16]: https://ionicframework.com/docs/ionicons/
