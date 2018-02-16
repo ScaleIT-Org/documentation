@@ -42,7 +42,7 @@ Die technische Skalierung weist eine hohe intrinsische Komplexität auf. Das Zie
 
    Überblick der technischen Kernskalierung dank der ScaleIT Architektur
 
-Software Technisch Architekturell
+Software-Technisch/Architekturell
     Microservices
         Die Software-Organisation von ScaleIT beruht auf den Prinzipien der Microservice Architektur (die moderne Reinkarnation der SOA - Service Oriented Architecture). Dadurch bietet sich die flexible Organisation und Reorganisation der Software auf den betrieblichen Hallenboden.
     Lambda
