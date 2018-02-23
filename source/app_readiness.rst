@@ -24,12 +24,15 @@ App Containers (Docker Subsystem)
     ├── .env.production.default [optional]
     ├── README
     ├── Resources/
-    | ├── Store/
+    | ├── Documentation/
+    | ├── Rancher/
     | | ├── catalogIcon-<app1>.svg //jpg or other format ok
     | | ├── appHubIcon-<app1>.svg //jpg or other format ok
     | | ├── config.yml // meta-data about the app
     | | └── Screenshots/ // App Screenshots
     | | └── screen1.jpg
+    | | └── Versions/
+    | | .   └── 0/
     | └── Documentation/
     | └── README
     ├── Domain Software/
@@ -64,6 +67,32 @@ App Containers (Docker Subsystem)
 
 |checkbox| The created containers shut down properly \(no PID 1 zombies\)
 
+App Interfaces
+--------------
+
+Sinn dieser Interfaces: "Eine Web-UI zu haben um Administration und Datensicht auf die App und das was sie macht zu erlauben".
+
+Administration Endpoint `/admin`
+
+* admin/config
+* admin/doc
+* admin/log
+* admin/status
+
+User Endpoint `/user`
+
+* user/doc
+* user/status
+
+Developer Endpoint `/dev`
+
+* dev/doc
+* dev/rest
+* dev/swagger.yaml
+
+.. todo::
+    Insert Link to Spec as Swagger file
+
 App Catalog Entry
 ---------------------
 
@@ -74,6 +103,7 @@ in a Rancher-compatible directory structure
 meta-data to this app-store repository\)
 
 .. code-block:: none
+    
     -- templates
     |-- <app1>
     | |-- 0 // App1-Version 0
@@ -97,6 +127,7 @@ meta-data to this app-store repository\)
 Contents of the `config.yml`
 
 .. code-block:: none
+    
     name: # Name of the Catalog Entry
     description: |
     # Description of the Catalog Entry
@@ -109,6 +140,7 @@ Contents of the `config.yml`
 This information is strongly inspired by the Rancher Catalog system: [http://rancher.com/docs/rancher/v1.2/en/catalog/private-catalog/](http://rancher.com/docs/rancher/v1.2/en/catalog/private-catalog/)
 
 A catalog entry generator can be found here: [https://github.com/slashgear/generator-rancher-catalog](https://github.com/slashgear/generator-rancher-catalog)
+
 
 App Documentation
 -----------------
