@@ -30,9 +30,11 @@ App Containers (Docker Subsystem)
     | | ├── appHubIcon-<app1>.svg //jpg or other format ok
     | | ├── config.yml // meta-data about the app
     | | └── Screenshots/ // App Screenshots
-    | | └── screen1.jpg
+    | | | └── 1.jpg
     | | └── Versions/
     | | .   └── 0/
+    | | .   . └── docker-compose.yml // compose version 2 due to compatibility reasons
+    | | .   . └── rancher-compose.yml
     | └── Documentation/
     | └── README
     ├── Domain Software/
@@ -66,6 +68,10 @@ App Containers (Docker Subsystem)
 |checkbox| Data Migration check may be necessary
 
 |checkbox| The created containers shut down properly \(no PID 1 zombies\)
+
+|checkbox| Adhere to the `Dockerfile best practices`_
+
+.. _Dockerfile best practices: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 App Interfaces
 --------------
