@@ -26,8 +26,8 @@ App Containers (Docker Subsystem)
     ├── Resources/
     | ├── Documentation/
     | ├── Rancher/
-    | | ├── catalogIcon-<app1>.svg //jpg or other format ok
-    | | ├── appHubIcon-<app1>.svg //jpg or other format ok
+    | | ├── catalogIcon-<app1>.svg //jpg,png or other format ok
+    | | ├── appHubIcon-<app1>.svg //jpg,png or other format ok
     | | ├── config.yml // meta-data about the app
     | | └── Screenshots/ // App Screenshots
     | | | └── 1.jpg
@@ -64,6 +64,8 @@ App Containers (Docker Subsystem)
 |checkbox| The App containers can be deleted without domain data loss \(docker-compose down\)
 
 |checkbox| The App containers can be replaced by new containers without domain data loss or corruption \(docker-compose down + build + up\)
+
+|checkbox| The timezone set for the container is UTC. See `Time Zone Details, Why UTC?`_
 
 |checkbox| Data Migration check may be necessary
 
@@ -147,7 +149,6 @@ This information is strongly inspired by the Rancher Catalog system: [http://ran
 
 A catalog entry generator can be found here: [https://github.com/slashgear/generator-rancher-catalog](https://github.com/slashgear/generator-rancher-catalog)
 
-
 App Documentation
 -----------------
 
@@ -213,4 +214,32 @@ Development Process
 
 .. |checkbox| image:: img/icon_checkbox.png
             :scale: 20%
+
+Time Zone Details, Why UTC?
+---------------------------
+
+Why Not {PST, GMT, PDT, etc}?[#serverutc]_
+
+* UTC has no Daylight Savings
+* Uniform time across all sites, factories and offices
+* Decreases data corruption chances due to inconsistent time zones
+* Standardized time across all our Apps will ensure logs, databases and all components relying on the time will function in a predictibale and interoperable way.
+
+.. note::
+    This will move the problem up into the UI layer. We recommend working with UTC inside the App logic and converting UTC to local time only on the user interface. 
+        Tech Tip: Using the angular DatePipe in the UI will help you achieve this easily [#datePipe]_. Look in the programming language of your choice to find similar useful features.
+
+.. figure:: img/utc-timezone.png
+   :scale: 50 %
+   :align: center
+   :alt: UTC in a glance: No DST, No GMT/UTC offset, 2 hours behind Baden-Württemberg
+
+   UTC in a glance [#utc]_
+
+   
+.. [#utc] UTC in a glance, https://www.timeanddate.com/worldclock/timezone/utc
+
+.. [#serverutc] An argument for UTC, http://yellerapp.com/posts/2015-01-12-the-worst-server-setup-you-can-make.html
+
+.. [#datePipe] Angular DatePipe, https://angular.io/api/common/DatePipe
 
