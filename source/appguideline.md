@@ -2,17 +2,18 @@
 
 # Create your own ScaleIT APP:
 
-To create your own ScaleIT application for the ScaleIT [architecture][13] there are many dependencies, structures or requirements you should take care of. But fortunately we already did a lot of the work for you and created many examples, templates and documentation about this procedure. In this article I will show you how to use these already existing structures to create your own ScaleIT application with ease.
+To create your own ScaleIT application for the ScaleIT [architecture][13], there are many dependencies, structures or requirements you should take care of. Fortunately, we already did lot of the work for you and created many examples, templates and documentation about this procedure. In this article, I will show you how to use these already existing structures to create your own ScaleIT application with ease.
 
-If you are new to the whole ScaleIT world I would suggest you to first read our basic [documentation][1] about the platform to get an quick overview about the main aspects why you or your company should use it.
+If you are new to the whole ScaleIT world I would suggest you to first read our basic [documentation][1] about the platform to get a quick overview about the main aspects why you or your company should use it.
+
 ### Install Dependencies
 
-First of all make sure [Docker][4] and [Docker Compose][8] is installed on your machine.
-To setup your programming environment you should also install [ASP.Net][5] or [NodeJS][6] regarding to your backend decision and additional the [NPM][7] package manager. For problems or new versions please refer to the respective sources.
+First of all, make sure [Docker][4] and [Docker Compose][8] is installed on your machine.
+To set up your programming environment you should also install [ASP.Net][5] or [NodeJS][6] (regarding to your backend decision) and the [NPM][7] package manager. For problems or new versions please refer to the respective sources.
 
 ### Getting Started
 
-As I mentioned before there are already some templates and [sidecars](#furtherReading) you should use to get started with your ScaleIT app. Before you start you should now that we specified a project structure which all applications should follow to stay consistent and to orientate yourself faster through someone else's project. Use [this][17] repo as your starting point. You can see the desired folder structure and templates for the documentation e.g. Readme's ...
+As I mentioned before there are already some templates and [sidecars](#furtherReading) you should use to get started with your ScaleIT app. Before you start you should know the specified project's structure which all applications should follow to keep consistency and to orientate yourself faster through a project, developed by someone else. Use [this][17] repo as your starting point. You can see the desired folder structure and templates for the documentation (e.g. Readme) ...
 
     <app_name>
     ├── docker-compose.yml
@@ -50,9 +51,9 @@ As I mentioned before there are already some templates and [sidecars](#furtherRe
     . . └── Dockerfile
 For further documentation check [this][9] out.
 
-To create your logic you need to fill the 'Domain Software' directory with logic.
-We provide a simple [Ionic frontend][18] with either a [ASP.Net][2] or [NodeJS][3] backend where you can romp around with your programming skills.
-A good way to utilize this modules is to use git submodule composition.
+The 'Domain Software' directory has to contain all logic your app supports.
+We provide a simple [Ionic frontend][18] with either [ASP.Net][2] or [NodeJS][3] backend where you can romp around with your programming skills.
+A good way to utilize these modules is to use git submodule composition.
 E.g. add the [dotnet api backend][2] to your domain software with the following line of code:
 
     git submodule add https://github.com/ScaleIT-Org/dotnet-api-backend-skeleton.git "Domain Software/dotnet-api-backend-skeleton"
@@ -74,11 +75,11 @@ e.g.
 
 You can see a working example in [this][19] repo with [dotnet api backend][2] and [Ionic frontend][18].
 
-Our chosen app architecture (seen in fig. 1) also includes the opportunity to use several [sidecars](#furtherReading). These are additional independent software parts you can add to your dockerized application to run next to your domain software and adds a desired specific functionality. For example an registration service to our central app-registry as seen in fig. 1
+Our chosen app architecture (seen in fig. 1) also includes the opportunity to use several [sidecars](#furtherReading). These are additional independent software parts you can add to your dockerized application to run next to your domain software, which can be used to add desired specific functionality. For example an registration service to our central app-registry as seen in fig. 1
 
 ![alt text](https://github.com/ScaleIT-ORG/spsc-app-registration/raw/master/Resources/Documentation/architecture.png "App Architecture")*Figure 1: App Architecture*
 
-To build and run everything the easy way just move to your main project folder and execute  ```docker-compose up```
+The easiest way to build and run everything is to move to your main project folder and execute  ```docker-compose up```
 This builds your docker images and starts them.
 The [NodeJS][3] version should then be accessible under ```localhost:3000``` and asp.net version under  ```localhost:5002```.
 
