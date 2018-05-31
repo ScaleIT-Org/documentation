@@ -2,16 +2,35 @@
 
 # Create your own ScaleIT APP:
 
-To create your own ScaleIT application for the ScaleIT [architecture][13], there are many dependencies, structures or requirements you should take care of. Fortunately, we already did lot of the work for you and created many examples, templates and documentation about this procedure. In this article, I will show you how to use these already existing structures to create your own ScaleIT application with ease.
+To create your own ScaleIT application for the ScaleIT [architecture][13], there are many dependencies, structures or requirements you should take care of. Fortunately, we already did lot of the work for you and created many examples, templates, [sidecars](#furtherReading)  and documentation about this procedure. In this article, I will show you how to use these already existing structures to create your own ScaleIT application with ease.
 
 If you are new to the whole ScaleIT world I would suggest you to first read our basic [documentation][1] about the platform to get a quick overview about the main aspects why you or your company should use it.
 
-### Install Dependencies
+
+The following figure visualizes the creation circle you have to go though:
+
+![App Creation Circle](
+https://raw.githubusercontent.com/ScaleIT-Org/media-ressources/master/miscellaneous/app_creation_circle.png "App Creation Circle")*Figure 1: App Creation Circle*
+
+### 1) Technology Stack
+
+#### Install Dependencies
+
+- [ ] [Docker][4]
+- [ ] [Docker Compose][8]
+- [ ] [NodeJS / npm][6]  
+- [ ] [.Net Core][5]
+- [ ] [AngularJs][11]
+- [ ] [Ionic][18]
 
 First of all, make sure [Docker][4] and [Docker Compose][8] is installed on your machine.
-To set up your programming environment you should also install [ASP.Net][5] or [NodeJS][6] (regarding to your backend decision) and the [NPM][7] package manager. For problems or new versions please refer to the respective sources.
+To set up your programming environment you should also install [.Net Core][5] or [NodeJS][6] (regarding to your backend decision) and the [npm][7] package manager. For problems or new versions please refer to the respective sources. [AngularJs][11] and [Ionic][18] will be installed automatically with [npm][7]. This behaviour is defined in the 'package.json' file in the root directory of your project later on.
 
-### Getting Started
+### 2) Meta Skeleton
+
+#### Getting Started
+
+- [ ] [Meta Skeleton][17]
 
 As I mentioned before there are already some templates and [sidecars](#furtherReading) you should use to get started with your ScaleIT app. Before you start you should know the specified project's structure which all applications should follow to keep consistency and to orientate yourself faster through a project, developed by someone else. Use [this][17] repo as your starting point. You can see the desired folder structure and templates for the documentation (e.g. Readme) ...
 
@@ -51,8 +70,14 @@ As I mentioned before there are already some templates and [sidecars](#furtherRe
     . . └── Dockerfile
 For further documentation check [this][9] out.
 
+### 3) Skeletons
+
+- [ ] [.NetCore Backend][2]
+- [ ] [NodeJS Backend][3]
+- [ ] [Ionic frontend][18]
+
 The 'Domain Software' directory has to contain all logic your app supports.
-We provide a simple [Ionic frontend][18] with either [ASP.Net][2] or [NodeJS][3] backend where you can romp around with your programming skills.
+We provide a simple [Ionic frontend][18] with either [.NetCore][2] or [NodeJS][3] backend where you can romp around with your programming skills.
 A good way to utilize these modules is to use git submodule composition.
 E.g. add the [dotnet api backend][2] to your domain software with the following line of code:
 
@@ -75,15 +100,11 @@ e.g.
 
 You can see a working example in [this][19] repo with [dotnet api backend][2] and [Ionic frontend][18].
 
-Our chosen app architecture (seen in fig. 1) also includes the opportunity to use several [sidecars](#furtherReading). These are additional independent software parts you can add to your dockerized application to run next to your domain software, which can be used to add desired specific functionality. For example an registration service to our central app-registry as seen in fig. 1
+Notes on the features of the App Skeleton:
 
-![alt text](https://github.com/ScaleIT-ORG/spsc-app-registration/raw/master/Resources/Documentation/architecture.png "App Architecture")*Figure 1: App Architecture*
+* The logo located at /src/assets/logo.png will be automatically converted to all white - keep in mind to create a version with transparent background.
 
-The easiest way to build and run everything is to move to your main project folder and execute  ```docker-compose up```
-This builds your docker images and starts them.
-The [NodeJS][3] version should then be accessible under ```localhost:3000``` and asp.net version under  ```localhost:5002```.
-
-### Standalones
+#### Standalones
 If you want to run everything local without the docker virtualization read the following section.
 
 The following step is separated into two independent sections for the two backend versions:
@@ -144,23 +165,48 @@ If everything went well you should see the following screen in your browser:
 | <img width="100%" src="https://github.com/ScaleIT-Org/ionic-app-skeleton/blob/master/Resources/Store/Screenshots/Administration.png?raw=true"/> | <p align="center"><img width="40%" src="https://raw.githubusercontent.com/ScaleIT-Org/ionic-app-skeleton/master/Resources/Documentation/tech-stack.png?raw=true"/> <p align="center">Webpack->(Typescript->Angular->Ionic)->Compiled HTML, JS, CSS</p></p>|
 Figure 2: Ionic Sample Frontend
 
-#### Create Your Own Content
+### 4) Sidecars
+
+- [ ] [App Registration Sidecar][21]
+- [ ] [OAuth Sidecar][20]
+
+Our chosen app architecture (seen in fig. 1) also includes the opportunity to use several [sidecars](#furtherReading). These are additional independent software parts you can add to your dockerized application to run next to your domain software, which can be used to add desired specific functionality. For example an registration service to our central app-registry as seen in fig. 2
+
+![alt text](https://github.com/ScaleIT-ORG/spsc-app-registration/raw/master/Resources/Documentation/architecture.png "App Architecture")*Figure 2: App Architecture*
+
+The easiest way to build and run everything is to move to your main project folder and execute  ```docker-compose up```
+This builds your docker images and starts them.
+The [NodeJS][3] version should then be accessible under ```localhost:3000``` and [.NetCore][2] version under  ```localhost:5002```.
+#### Example
+
+You can checkout our working example [here][22].
+
+### 5) Rancher Catalog
+
+TODO
+
+### 6) Readiness Checklists
+
+- [ ] [App Readiness Checklist][9]
+- [ ] [Eco System Readiness Checklist][9]
+
+After you modified your app there is one more step to do.
+We constructed a so called [App Readiness Checklist][9] where we defined some rules and constraints to maintain a consistent structure and behaviour under all existing ScaleIT applications. So checkout our [checklist][9] and verify that your app is compliant with applicable standards.
+
+### 7) Create Your Own Content
 
 Now that everything is up and running it is on you to implement your ideas for a convenient ScaleIT application.
 To easily get started we collected the links to the used technologies:
 
-- [Ionic Framework][10] (Frontend)
-- [Ionic Icons][16] (Frontend)
-- [AngularJs][11] (Frontend)
-- [Typescript][12] (Frontend)
-- [NodeJs][6] (Backend)
-- [ASP.NET][5] (Backend)
-- [Docker][4] (Virtualization)
-- [Docker Compose][8] (Virtulization)
-
-Notes on the features of the App Skeleton:
-
-* The logo located at /src/assets/logo.png will be automatically converted to all white - keep in mind to create a version with transparent background.
+- [ ] [ScaleIT Repo][23] (Skeletons/Examples/Documentation)
+- [ ] [Ionic Framework][10] (Frontend)
+- [ ] [Ionic Icons][16] (Frontend)
+- [ ] [AngularJs][11] (Frontend)
+- [ ] [Typescript][12] (Frontend)
+- [ ] [NodeJs][6] (Backend)
+- [ ] [.NetCore][5] (Backend)
+- [ ] [Docker][4] (Virtualization)
+- [ ] [Docker Compose][8] (Virtulization)
 
 <a name="furtherReading">
 If you want further reading material about used concepts check this out:
@@ -170,17 +216,11 @@ If you want further reading material about used concepts check this out:
   - [Sidecar Pattern][15]
 </a>
 
-
-#### Check App Readiness
-
-After you modified your app there is one more step to do.
-We constructed a so called [App Readiness Checklist][9] where we defined some rules and constraints to maintain a consistent structure and behaviour under all existing ScaleIT applications. So checkout our [checklist][9] and verify that your app is compliant with applicable standards.
-
 [1]: http://scaleit-platform-documentation.readthedocs.io/en/latest/index.html
 [2]: https://github.com/ScaleIT-Org/dotnet-api-backend-skeleton
 [3]: https://github.com/ScaleIT-Org/nodejs-backend-skeleton
 [4]: https://www.docker.com/
-[5]: https://www.asp.net/
+[5]: https://www.microsoft.com/net/download/linux
 [6]: https://nodejs.org/en/
 [7]: https://www.npmjs.com/
 [8]: https://docs.docker.com/compose/
@@ -195,3 +235,7 @@ We constructed a so called [App Readiness Checklist][9] where we defined some ru
 [17]: https://github.com/ScaleIT-Org/sapp-i40-app-skeleton
 [18]: https://github.com/ScaleIT-Org/ionic-app-skeleton
 [19]: https://github.com/ScaleIT-Org/sapp-ionic-dotnetcore-example
+[20]: https://github.com/ScaleIT-Org/kong-sidecar
+[21]: https://github.com/ScaleIT-Org/spsc-app-registration-sidecar
+[22]: https://github.com/ScaleIT-Org/sapp-sidecar-app-registration-example
+[23]: https://github.com/ScaleIT-Org/
