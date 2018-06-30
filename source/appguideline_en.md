@@ -118,7 +118,7 @@ git clone git@github.com:ScaleIT-Org/nodejs-backend-skeleton.git
 
 Then go into the root of the newly created folder and resolve the dependencies with [NPM][7].
 ```
-cd nodejs-backend-skeleton+ohzeq  .git
+cd nodejs-backend-skeleton
 npm install
 ```
 As a next step you need to build the frontend. This is also done with NPM where some ionic scripts are executed. In this step the whole frontend will be build, typescripts transformed and dependencies resolved. Everything with the following simple command:
