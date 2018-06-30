@@ -113,7 +113,7 @@ git clone git@github.com:ScaleIT-Org/nodejs-backend-skeleton.git
 
 Gehe nun zum Ursprung des neu erstellten Ordners und löse die Abhängigkeiten mit [NPM][7] auf.
 ```
-cd nodejs-backend-skeleton+ohzeq  .git
+cd nodejs-backend-skeleton
 npm install
 ```
 Im nächsten Schritt musst du das Frontend erstellen. Das funktioniert auch mit [NPM][7]. Hierbei wird mit den ionic scripts durchgeführt das gesamte Frontend gebaut, typescripts umgewandelt und diverse Abhängigkeiten aufgelöst. Alles mit folgendem Befehl:
