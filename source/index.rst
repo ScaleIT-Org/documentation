@@ -39,15 +39,17 @@ Welcome to the ScaleIT Platform documentation!
    whatis
    getstarted
    proposition
+   philosophy
    scalability
    success_stories
    appdesign
    architecture
-   app_readiness
+   digital_readiness
    networking
    communication
    lifecycles
    security
+   blockchain
    
 
 TEST

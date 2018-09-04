@@ -1,8 +1,3 @@
-.. _app readiness:
-
-Industry 4.0 App Readiness
-==========================
-
 DockerCompose is the chosen aggregation unit for an App. However, it can be replaced with Kubernetes Pods or Rancherfiles without changing the logical construction of an App.
 
 .. todo::
@@ -182,43 +177,10 @@ App Documentation
 
 |checkbox| App has the networking information included \(routing address\)
 
-
-App Behaviour
--------------
-
-|checkbox| Logging
-
-|checkbox| Graceful degradation
-
-
-Software Engineering
---------------------
-
-|checkbox| Reactive Design \(App Richtlinien\)
-
-|checkbox| [https://projects.teco.edu/projects/scaleit-ap2/wiki/Richtlinien\_App-Entwicklung](
-https://projects.teco.edu/projects/scaleit-ap2/wiki/Richtlinien_App-Entwicklung)
-
-Development Process
--------------------
-
-|checkbox| Automated build pipeline
-
-
-|checkbox| Continuous Integration
-
-
-|checkbox| Use Dynamic Port ranges 49,152 through 65,535.
-
-
-
-.. |checkbox| image:: img/icon_checkbox.png
-            :scale: 20%
-
 Time Zone Details, Why UTC?
 ---------------------------
 
-Why Not {PST, GMT, PDT, etc}?[#serverutc]_
+Why Not {PST, GMT, PDT, etc}? [#serverutc]_
 
 * UTC has no Daylight Savings
 * Uniform time across all sites, factories and offices
@@ -243,3 +205,4 @@ Why Not {PST, GMT, PDT, etc}?[#serverutc]_
 
 .. [#datePipe] Angular DatePipe, https://angular.io/api/common/DatePipe
 
+.. [#production_readiness] Susan J. Fowler Production-Ready Microservices, https://www.safaribooksonline.com/library/view/production-ready-microservices/9781491965962/

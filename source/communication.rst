@@ -15,10 +15,10 @@ Kommunikation zwischen Apps (App-2-App)
 ---------------------------------------
 
 1:1 Kommunikation (Peer2Peer,Resourcenanfragen)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1:n Kommunikation 9
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 
 Kommunikation zwischen Apps und der Plattform (App-2-Platform)
@@ -31,6 +31,7 @@ Requests die durch das Routing Sidecar an die App gegeben werden enthalten je na
 Die Sidecars melden den zentralen Plattformkomponenten (Platform-Essentials?) und Business Essentials wenn es Änderungen gibt. Z.B. HTTP API.
 
 Weil sich hinter diesen zentralisierten Komponenten meist ein Cluster von Anwendungen verbirgt, ... Master-Komponenten und Slave Komponenten...
+They tie the whole system together.
 
 Kommunikation mit der App Registry
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

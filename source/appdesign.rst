@@ -11,7 +11,7 @@ Die konkrete softwaretechnische Architektur der ScaleIT Plattform wird in Kapite
 Die App Compliance Level werden im Kapitel `Compliance Level`_ beschrieben.
 
 App Software-Design-Prinzipien
----------------------
+------------------------------
 
 ScaleIT Apps are a model of the pattern of multiple cooperating processes which form a cohesive unit of service. They simplify application deployment and management by providing a higher-level abstraction than the set of their constituent applications. Apps serve as unit of deployment, horizontal scaling, and replication. Colocation (co-scheduling), shared fate (e.g. termination), coordinated replication, resource sharing, and dependency management should be handled automatically for containers in a app.
 
