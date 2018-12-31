@@ -31,3 +31,27 @@ Wenn das "ScaleIT System" nicht auf Kommandozeilenebene zugänglich ist, fallen 
 .. todo::
     Welchen Bezug gibt es zu den standards, die auf dem hallenboden und im betrieblichen umfeld gelten (bsi, ...)?
         Beantworten
+
+
+     iIch bin der Architekt im ScaleIT Projekt.
+
+Für IT-Safety (Data Safety) gibt es Ansätze, aber diese sind im Protoypenstadium. Backups sollen in der komerziellen Version von der Firma Ondics bereitgestellt werden. Fingerprinting, Checksum-Verifikation, Blockchain-Audit oder andere Mechanismen höchstwahrscheinlich nicht. Kritische Apps sollten in separaten VMs laufen damit ein Kernel-Panic nicht das gesamte System mitnimmt. Apps die den maximalen Data Safety App-Level implementieren müssen migrationsskripte und daten-checks mitliefern sowie bei Ausfällen wieder von alleine auf Konsistenz kommen.
+
+Zum Punkt IT-Security an:
+
+Das gesamte System basiert auf Virtualisierung mit Docker und kann zusätzlich auf mehreren physischen oder virtuellen Maschinen installiert werden, je nach dem wie kritisch bestimmte Daten sind und wie stark eine Isolierung erwünscht ist.
+
+Verschlüßelung der Daten innerhalb der Container ist noch experimentell aber prinzipiell leicht zu erreichen, in dem man mit virtuellen Platten und verschlüßelten Dateisystemen arbeitet. RAM Verschlüßelung ist soweit mein Wissensstand ist, auch in der Wissenschaft noch nicht richtig gelöst (oder über spezielle CPUs und Betriebssysteme). Intel SGX may be a solution or TPMs or homomorphic encryption schemes?
+
+Da die Apps komponentenbasiert aufgebaut sind, ist die interne Kommunikation nicht nach außen sichtbar, und nur zugelassene Kommunikation darf nach außen (wenn die passenden Sidecars in der App konfiguriert sind - InApp-Firewall). Den Austausch der Sidecars innerhalb der Apps durch sicherere Komponenten ist eine Operation die sehr wenig Ressourcen in Anspruch nimmt.
+
+Kommunikationsverschlüßelung geht über die gängigen Standards wie HTTPS und MQTTS.
+
+Eine Zugriffskontrolle über Single-Sign-On (OAuth2) ist bald auch komerziell verfügbar, um die Nutzerauthentifizierung zu Erlauben. Über denselben Mechanismus sind dann auch API-Zugriffe implementierbar (wir haben aber diesen Fall noch nicht implementiert - die Konfiguration der Schnittstelle muss noch gemacht werden).
+
+Theoretisch funktionieren alle Sicherheitsmechanismen die in Docker, Cloud-Systemen und dem Web zum Einsatz kommen.
+
+Nutzt man komerzielle Docker-Registries (wie z.B. die Firma SICK), dann gibt es die Möglichkeit für die App-Betriebssysteme und installierten libraries einen automatischen Security Check durchzuführen. (https://coreos.com/quay-enterprise/docs/latest/security-scanning.html) 
+
+Unsere Dokumentation ist noch im entstehen, aber Sie können immer den aktuellen Stand hier aufrufen:
+https://github.com/ScaleIT-Org/documentation

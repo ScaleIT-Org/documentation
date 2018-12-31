@@ -204,5 +204,3 @@ Why Not {PST, GMT, PDT, etc}? [#serverutc]_
 .. [#serverutc] An argument for UTC, http://yellerapp.com/posts/2015-01-12-the-worst-server-setup-you-can-make.html
 
 .. [#datePipe] Angular DatePipe, https://angular.io/api/common/DatePipe
-
-.. [#production_readiness] Susan J. Fowler Production-Ready Microservices, https://www.safaribooksonline.com/library/view/production-ready-microservices/9781491965962/

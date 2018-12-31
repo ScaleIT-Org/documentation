@@ -10,17 +10,35 @@ An app must ...
 * Be uniquely identifiable and by a URL or IP(v4/v6) Adress
 * Have a human readable Web UI at its adress
 * Support at least HTTP/1.1
+* Works standalone with a minimal feature set.
+* Communicates Errors to the user
+
+Compliance Level Max
+++++++++++++++++++++
+
+* Must follow the Engineering Readiness list
 
 Networking
--------------------- 
+----------
+
+An app must ...
 
 Level 0
 ++++++++++++++++++
-* Open TCP/IP network pathway to the Web-UI (IP+Port/Reverse Proxy etc.)
+* Have an open TCP/IP network pathway to the Web-UI (IP+Port/URL).
 
 Level 1
 ++++++++++++++++++
-* Reverse Proxy Support
+* Reverse Proxy Support with static (per deploy) qualified domain names
+* Able to receive HTTPS requests
+
+Level 2
+++++++++++++++++++
+* Able to send and receive MQTT messages
+
+Level 3
+++++++++++++++++++
+* 
 
 Data Handling Capabilities
 --------------------------
@@ -41,7 +59,7 @@ Level 3
 +++++++
 
 Level 4 (Semantic Enabled)
-++++++++++++++++++
+++++++++++++++++++++++++++
 * Expose RDF-structured data with semantic annotations.
 * JSON-LD as recommended syntax format for data exchange
 * Vanilla JSON for backwards compatibility
@@ -57,11 +75,18 @@ implement passive communication.
 use JSON or 
 
 
-o↵er a human-facing HTML representation or user-interface.
+over a human-facing HTML representation or user-interface.
 be stateless. *
-explicitly declare its dependencies, instead of relying on system-wide pack-
+explicitly declare its dependencies, instead of relying on system-wide packages
 
 Future Readiness, ensure the app...
 * Has HTTP2 support and can be upgraded to HTTP2
 * ...
+
+
+.. figure:: img/AppLevel.png
+   :scale: 50 %
+   :alt: App Compliance Level
+
+   App Compliance Level structure
 

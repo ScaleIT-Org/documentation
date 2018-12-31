@@ -40,6 +40,7 @@ Welcome to the ScaleIT Platform documentation!
    getstarted
    proposition
    philosophy
+   lernmaterial
    scalability
    success_stories
    appdesign
@@ -50,6 +51,7 @@ Welcome to the ScaleIT Platform documentation!
    lifecycles
    security
    blockchain
+
    
 
 TEST

@@ -61,32 +61,42 @@ Production-Ready Service is ...
 B. Evaluate Your Microservice
 ++++++++++++++++++++++++++++++++++++
 
+
 * Stability and Reliability
- * The Development Cycle
- * The Deployment Pipeline
- * Dependencies
- * Routing and Discovery
- * Deprecation and Decommissioning
+
+  - The Development Cycle
+  - The Deployment Pipeline
+  - Dependencies
+  - Routing and Discovery
+  - Deprecation and Decommissioning
+
 * Scalability and Performance
- * Knowing the Growth Scale
- * Efficient Use of Resources
- * Resource Awareness
- * Capacity Planning
- * Dependency Scaling
- * Traffic Management
- * Task Handling and Processing
- * Scalable Data Storage
+
+  - Knowing the Growth Scale
+  - Efficient Use of Resources
+  - Resource Awareness
+  - Capacity Planning
+  - Dependency Scaling
+  - Traffic Management
+  - Task Handling and Processing
+  - Scalable Data Storage
+
 * Fault Tolerance and Catastrophe-Preparedness
- * Avoiding Single Points of Failure
- * Catastrophes and Failure Scenarios
- * Resiliency Testing
- * Failure Detection and Remediation
- * Monitoring
- * Key Metrics
- * Logging
- * Dashboards
- * Alerting
- * On-Call Rotations
+
+  - Avoiding Single Points of Failure
+  - Catastrophes and Failure Scenarios
+  - Resiliency Testing
+  - Failure Detection and Remediation
+  - Monitoring
+  - Key Metrics
+  - Logging
+  - Dashboards
+  - Alerting
+  - On-Call Rotations
+
 * Documentation and Understanding
- * Microservice Documentation
- * Microservice Understanding
+
+  - Microservice Documentation
+  - Microservice Understanding
+
+.. [#production_readiness] Susan J. Fowler Production-Ready Microservices, https://www.safaribooksonline.com/library/view/production-ready-microservices/9781491965962/

@@ -1,4 +1,5 @@
 .. _app design:
+
 ScaleIT App Design-Prinzipien
 =============================
 
@@ -43,6 +44,8 @@ A Bounded Context is a unit of function with business value, that has high cohes
 
 .. include:: app_interface_design.rst
 
+
+TODO: Add rest of design guidelines
 
 Bibliography
 ------------

@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1431" height="695" viewBox="0 0 1431 695" version="1.1" style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+text { white-space: pre; }
+path, image { pointer-events: none; }
+
+.s1_1{
+font-size: 27.50px;
+font-family: ArialMT_9;
+fill: #000000;
+}
+
+.g0_1x{
+    fill-opacity: 0;
+}
+
+.g0_1{
+fill: #FFFFFF;
+}
+.g1_1{
+fill: #9DA5AE;
+}
+.g2_1{
+fill: #F79436;
+}
+.g3_1{
+fill: none;
+stroke: #000000;
+stroke-width: 1.5277778;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+stroke-miterlimit: 8;
+}
+.g4_1{
+fill: #5A6573;
+}
+.g5_1{
+fill: #798390;
+}
+.g6_1{
+fill: #B3BBC6;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0 L0,695 L1431,695 L1431,0 Z " fill="#FFFFFF" fill-opacity="0" stroke="none"/>
+<path d="M0,0H1431.5V695.1H0Z" class="g0_1x"/>
+<path d="M498.4,43.6h5.8c.1,2.9,2.5,4.4,5.1,4.4c2.7,0,5.1,-1.7,5.1,-4.5c0,-2.9,-2.7,-4.8,-5.1,-4.9c-.3,0,-2.7,0,-5.2,-1.1c-3.7,-1.8,-5.7,-4.9,-5.7,-9c0,-6.7,5.3,-10.8,10.9,-10.8c6.1,0,10.7,4.1,10.8,10.1h-5.8c-.1,-2.9,-2.3,-4.2,-5,-4.2c-2.7,0,-5.1,1.6,-5.1,4.9c0,2.9,2.5,4.4,5.1,4.4c.3,0,2.7,0,5.2,1.2c3.7,1.7,5.7,5.3,5.7,9.4c0,6.7,-5.2,10.4,-10.9,10.4c-6,-.2,-10.8,-3.7,-10.9,-10.3Z" class="g1_1"/>
+<path d="M550.4,44.6l4.1,4.1c-3.1,3.2,-7.5,5.2,-12.3,5.2c-9.6,0,-17.5,-7.1,-17.5,-18.1c0,-10.6,7.3,-18.1,17.5,-18.1c4.8,0,9.2,2,12.3,5.2L550.4,27c-2.1,-2.1,-5,-3.4,-8.2,-3.4c-7.2,0,-11.6,5.1,-11.6,12.2c0,7.5,5.1,12.2,11.6,12.2c3.2,0,6.1,-1.3,8.2,-3.4Z" class="g1_1"/>
+<path d="M566.6,44.2H575L570.8,32Zm10.3,5.1H564.7l-1.5,4.1h-6.3L570.8,17.2l14,36.2h-6.3Z" class="g1_1"/>
+<path d="M609,47.5v5.9H590.2V18.2h5.9V47.5Z" class="g1_1"/>
+<path d="M615.6,47.5h23.3v5.9H615.6Zm23.3,-8.8H615.6V32.9h23.3Zm0,-14.6H615.6V18.2h23.3Z" class="g1_1"/>
+<path d="M647.5,53.4h5.8V18.2h-5.8V53.4Z" class="g2_1"/>
+<path d="M680.3,23.6H673V53.4h-5.8V23.6h-7.4V18.2h20.5Z" class="g2_1"/>
+<text x="479" y="82" class="s1_1">Industrie 4.0 Skills</text>
+<text x="18" y="232" class="s1_1">Ecosystem Architecture</text>
+<text x="490" y="232" class="s1_1">App Architecture</text>
+<text x="894" y="232" class="s1_1">Software Engineering</text>
+<text x="635" y="307" class="s1_1">Digital Twin</text>
+<path d="M590.5,94V199.9m0,45.3V668.8M624.8,297.2H593.5" class="g3_1"/>
+<text x="635" y="359" class="s1_1">App Architecture</text>
+<path d="M624.8,349.1H593.5M158.1,199.9v-53h433V94m-.6,0v52.9h432.9v53" class="g3_1"/>
+<text x="202" y="307" class="s1_1">App Chains</text>
+<path d="M158.1,245.2V668.8M192.5,297.2H161.2" class="g3_1"/>
+<text x="202" y="359" class="s1_1">Inter-App Communication</text>
+<path d="M192.5,349.1H161.2" class="g3_1"/>
+<text x="1068" y="307" dx="0,0,0,0,0,0,0,0,0,0.7,0,0,0,0,0,0,0,0,0,0" class="s1_1">Reactive Programming</text>
+<path d="M1022.8,245.2V668.8m35.9,-371.6h-31.3" class="g3_1"/>
+<text x="1068" y="359" class="s1_1">Agile Programming</text>
+<path d="M1058.7,349.1h-31.3" class="g3_1"/>
+<text x="1068" y="410" class="s1_1">Web Technologies</text>
+<path d="M1058.7,401h-31.3" class="g3_1"/>
+<text x="1068" y="462" class="s1_1">Modularization</text>
+<path d="M1058.7,453h-31.3" class="g3_1"/>
+<text x="1068" y="516" class="s1_1">Virtualization</text>
+<path d="M1058.7,504.9h-31.3" class="g3_1"/>
+<text x="1068" y="568" class="s1_1">Version Control</text>
+<path d="M1058.7,558.4h-31.3" class="g3_1"/>
+<text x="1068" y="620" class="s1_1">Testing</text>
+<path d="M1058.7,610.3h-31.3" class="g3_1"/>
+<text x="1068" y="672" class="s1_1">Development Best Practices</text>
+<path d="M1058.7,662.3h-31.3" class="g3_1"/>
+<text x="635" y="410" class="s1_1">App Context</text>
+<path d="M624.8,401H593.5" class="g3_1"/>
+<text x="635" y="462" class="s1_1">In-App Communication</text>
+<path d="M624.8,453H593.5" class="g3_1"/>
+<text x="635" y="516" class="s1_1">Platform Integration</text>
+<path d="M624.8,504.9H593.5" class="g3_1"/>
+<text x="635" y="568" class="s1_1">Sidecars</text>
+<path d="M624.8,558.4H593.5" class="g3_1"/>
+<text x="635" y="620" class="s1_1">Bounded Contexts</text>
+<path d="M624.8,610.3H593.5" class="g3_1"/>
+<text x="635" y="672" class="s1_1">Digital Twins</text>
+<path d="M624.8,662.3H593.5" class="g3_1"/>
+<text x="202" y="410" class="s1_1">Workflows</text>
+<path d="M192.5,401H161.2" class="g3_1"/>
+<text x="202" y="462" class="s1_1">Business Contexts</text>
+<path d="M192.5,453H161.2" class="g3_1"/>
+<text x="202" y="516" class="s1_1">Return on Invest</text>
+<path d="M192.5,504.9H161.2" class="g3_1"/>
+<text x="202" y="568" class="s1_1">Digital Twins</text>
+<path d="M192.5,558.4H161.2" class="g3_1"/>
+<text x="202" y="620" class="s1_1">Digital Twins</text>
+<path d="M192.5,610.3H161.2" class="g3_1"/>
+<text x="202" y="672" class="s1_1">Digital Twins</text>
+<path d="M192.5,662.3H161.2" class="g3_1"/>
+<path d="M461.4,123.8H725.7v44.3H461.4Z" class="g0_1"/>
+<text x="472" y="155" class="s1_1">Domain Engineering</text>
+<path d="M361.5,301.3v-6.6l5.7,-3.4l5.7,3.3l.1,6.6l-5.7,3.4Z" class="g2_1"/>
+<path d="M374.9,301.7V294l6.7,-3.9l6.6,3.9l.1,7.7l-6.7,3.8Z" class="g4_1"/>
+<path d="M366.5,315v-7.7l6.6,-3.8l6.7,3.8V315l-6.6,3.9Z" class="g5_1"/>
+<path d="M368.2,288.7v-6.6l5.7,-3.3l5.7,3.3l.1,6.6L374,292Z" class="g1_1"/>
+<path d="M353.2,312.1v-6.7l5.7,-3.3l5.7,3.3l.1,6.6l-5.7,3.3Z" class="g1_1"/>
+<path d="M382.3,287.9v-7.8l6.6,-3.8l6.7,3.8v7.7l-6.7,3.9Z" class="g6_1"/>
+<path d="M349.8,299.6V294l4.8,-2.7l4.7,2.7v5.5l-4.7,2.8Z" class="g4_1"/>
+<path d="M356.7,289.7v-5.5l4.7,-2.7l4.8,2.7v5.5l-4.7,2.8Z" class="g5_1"/>
+<path d="M341.9,308.5V303l4.7,-2.8l4.8,2.8v5.5l-4.8,2.7Z" class="g6_1"/>
+<path d="M801,301.3l-.1,-6.6l5.6,-3.4l5.6,3.3v6.6l-5.6,3.4Z" class="g2_1"/>
+<path d="M814,301.7V294l6.5,-3.9L827,294v7.7l-6.5,3.8Z" class="g4_1"/>
+<path d="M805.8,315v-7.7l6.5,-3.8l6.5,3.8V315l-6.5,3.9Z" class="g5_1"/>
+<path d="M807.5,288.7v-6.6l5.5,-3.3l5.6,3.3v6.6l-5.5,3.3Z" class="g1_1"/>
+<path d="M792.9,312.1l-.1,-6.7l5.6,-3.3l5.6,3.3V312l-5.6,3.3Z" class="g1_1"/>
+<path d="M821.2,287.9v-7.8l6.5,-3.8l6.5,3.8v7.7l-6.5,3.9Z" class="g6_1"/>
+<path d="M789.5,299.6V294l4.6,-2.7l4.7,2.7v5.5l-4.6,2.8Z" class="g4_1"/>
+<path d="M796.2,289.7v-5.5l4.7,-2.7l4.6,2.7v5.5l-4.6,2.8Z" class="g5_1"/>
+<path d="M781.8,308.5V303l4.6,-2.8L791,303l.1,5.5l-4.7,2.7Z" class="g6_1"/>
+<path d="M858.1,353.2v-6.6l5.7,-3.3l5.7,3.3v6.6l-5.7,3.3Z" class="g2_1"/>
+<path d="M871.5,353.7v-7.8l6.6,-3.8l6.7,3.8v7.7l-6.7,3.9Z" class="g4_1"/>
+<path d="M863,367v-7.7l6.7,-3.9l6.6,3.8V367l-6.6,3.8Z" class="g5_1"/>
+<path d="M864.8,340.7v-6.6l5.7,-3.3l5.7,3.3v6.6l-5.7,3.3Z" class="g1_1"/>
+<path d="M849.8,364v-6.6l5.7,-3.3l5.7,3.3V364l-5.7,3.3Z" class="g1_1"/>
+<path d="M878.8,339.8v-7.7l6.6,-3.9l6.7,3.9v7.7l-6.6,3.8Z" class="g6_1"/>
+<path d="M846.3,351.5V346l4.8,-2.8l4.7,2.8l.1,5.5l-4.8,2.7Z" class="g4_1"/>
+<path d="M853.2,341.7v-5.5l4.8,-2.8l4.7,2.8v5.5l-4.7,2.7Z" class="g5_1"/>
+<path d="M838.4,360.4v-5.5l4.7,-2.7l4.8,2.7v5.5l-4.7,2.8Z" class="g6_1"/>
+<path d="M528.1,353.2v-6.6l5.7,-3.3l5.7,3.3v6.6l-5.7,3.3Z" class="g2_1"/>
+<path d="M541.5,353.7v-7.8l6.6,-3.8l6.7,3.8v7.7l-6.7,3.9Z" class="g4_1"/>
+<path d="M533,367v-7.7l6.7,-3.9l6.6,3.8V367l-6.6,3.8Z" class="g5_1"/>
+<path d="M534.8,340.7v-6.6l5.7,-3.3l5.7,3.3v6.6l-5.7,3.3Z" class="g1_1"/>
+<path d="M519.8,364v-6.6l5.7,-3.3l5.7,3.3V364l-5.7,3.3Z" class="g1_1"/>
+<path d="M548.8,339.8v-7.7l6.6,-3.9l6.7,3.9v7.7l-6.6,3.8Z" class="g6_1"/>
+<path d="M516.3,351.5V346l4.8,-2.8l4.7,2.8l.1,5.5l-4.8,2.7Z" class="g4_1"/>
+<path d="M523.2,341.7v-5.5l4.8,-2.8l4.7,2.8v5.5l-4.7,2.7Z" class="g5_1"/>
+<path d="M508.4,360.4v-5.5l4.7,-2.7l4.8,2.7v5.5l-4.7,2.8Z" class="g6_1"/>
+<path d="M930.8,458.6V452l5.6,-3.3l5.5,3.3l.1,6.6l-5.6,3.3Z" class="g2_1"/>
+<path d="M943.9,459.1v-7.7l6.5,-3.9l6.5,3.8V459l-6.5,3.9Z" class="g4_1"/>
+<path d="M935.7,472.4v-7.7l6.4,-3.9l6.5,3.9l.1,7.7l-6.5,3.8Z" class="g5_1"/>
+<path d="M937.4,446.1l-.1,-6.6l5.6,-3.3l5.6,3.3v6.6l-5.6,3.3Z" class="g1_1"/>
+<path d="M922.7,469.4v-6.6l5.6,-3.3l5.5,3.3l.1,6.6l-5.6,3.3Z" class="g1_1"/>
+<path d="M951,445.2v-7.7l6.5,-3.9l6.5,3.9v7.7l-6.5,3.9Z" class="g6_1"/>
+<path d="M919.4,456.9v-5.5l4.6,-2.8l4.6,2.8l.1,5.5l-4.7,2.8Z" class="g4_1"/>
+<path d="M926.1,447.1v-5.5l4.6,-2.8l4.7,2.8v5.5l-4.7,2.7Z" class="g5_1"/>
+<path d="M911.6,465.9v-5.5l4.7,-2.8l4.6,2.7v5.5l-4.6,2.8Z" class="g6_1"/>
+<path d="M900.8,509.7v-6.4l5.7,-3.2l5.7,3.2l.1,6.4l-5.7,3.2Z" class="g2_1"/>
+<path d="M914.3,510.1l-.1,-7.5l6.7,-3.7l6.6,3.7l.1,7.5l-6.7,3.7Z" class="g4_1"/>
+<path d="M905.8,523v-7.5l6.6,-3.7l6.7,3.7V523l-6.6,3.7Z" class="g5_1"/>
+<path d="M907.6,497.6l-.1,-6.4l5.7,-3.3l5.7,3.2l.1,6.4l-5.7,3.2Z" class="g1_1"/>
+<path d="M892.6,520.1l-.1,-6.4l5.7,-3.2l5.7,3.2l.1,6.4l-5.7,3.2Z" class="g1_1"/>
+<path d="M921.6,496.7v-7.5l6.6,-3.7l6.7,3.7v7.5l-6.7,3.7Z" class="g6_1"/>
+<path d="M889.1,508v-5.3l4.8,-2.7l4.7,2.7V508l-4.7,2.7Z" class="g4_1"/>
+<path d="M896,498.5v-5.3l4.7,-2.7l4.8,2.7v5.3l-4.7,2.7Z" class="g5_1"/>
+<path d="M881.2,516.7v-5.4l4.7,-2.6l4.8,2.6v5.4l-4.7,2.6Z" class="g6_1"/>
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css"><![CDATA[
+
+@font-face {
+    font-family: ArialMT_9;
+    src: url("fonts/ArialMT_9.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
