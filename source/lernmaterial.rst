@@ -14,7 +14,7 @@ bla
 
 .. raw:: html
 
-    <object data="_images/pillars_of_knowledge.svg" type="image/svg+xml" width="100%"></object>
+    <object data="_static/pillars_of_knowledge.svg" type="image/svg+xml" width="100%"></object>
 
 
 Die Säulen des Wissens
