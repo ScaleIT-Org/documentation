@@ -20,6 +20,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+locale_dirs=['../../locale']
 
 # -- General configuration ------------------------------------------------
 
