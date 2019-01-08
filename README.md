@@ -47,4 +47,8 @@ CSS (the class may be used elsewhere, rename). Don't forget, styles cascade.
 }
 ```
 
+----
+
+The ScaleIT project was funded by the German Federal Ministry of Education and Research (BMBF) in the program "Innovations for Production, Service and the Work of Tomorrow" (02P14B180ff) and managed by the lead partner Karlsruhe PTKA. Responsibility for the content of this publication lies with the authors.
+
 MIT License, Copyright 2017 Andrei Miclaus
